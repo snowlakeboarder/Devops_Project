@@ -30,7 +30,7 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','mDHeeC0wVI2bc0v0yMGplx2xaXW2BGWz');
+define('SECRET_SALT','RGcjIgdfQ8RQbTpLX4LygldsHqdhhleQ');
 
 #Default admin email. Used only on db connection issues and related alerts.
 define('ADMIN_EMAIL','luke@northbridge.com');
@@ -44,7 +44,7 @@ define('DBTYPE','mysql');
 define('DBHOST','db');
 define('DBNAME','osticket');
 define('DBUSER','osticketuser');
-define('DBPASS','strongpassword');
+define('DBPASS','super_secure_app_password');
 
 # Database TCP/IP Connect Timeout (default: 3 seconds)
 # Timeout is important when DBHOST has multiple proxies to try
